@@ -270,30 +270,38 @@ and real-world problem-solving through simulated scenarios..</p>
         </div>
 
         <div class="card">
-          <h3>Reddit Post Sentiment Analyzer</h3>
+          <h3>Reddit Post Sentiment & Summarizer</h3>
           <div class="date">2025</div>
           <div class="tag-container">
             <span class="tag">Python</span>
-            <span class="tag">SteamLit</span>
+            <span class="tag">Streamlit</span>
             <span class="tag">Pandas</span>
             <span class="tag">Matplotlib</span>
             <span class="tag">VADER</span>
+            <span class="tag">Transformers</span>
+            <span class="tag">HuggingFace</span>
+            <span class="tag">PRAW</span>
             <span class="tag">Git</span>
-            <span class="tag">Git LFS</span>
           </div>
           <p class="description">
-            A web application built with Streamlit and Python that analyzes the sentiment of recent posts and comments from any Reddit community. Using the Reddit API (via PRAW) and VADER sentiment analysis, the app classifies content as Positive, Neutral, or Negative, then presents the results visually with interactive charts.
-This tool can be used to quickly understand the general mood or tone of a subreddit, making it useful for market research, trend analysis, community monitoring, or content moderation insights.
+            A web application built with Streamlit and Python that analyzes and summarizes recent posts and comments from any Reddit community. 
+            It uses the Reddit API (via PRAW), VADER sentiment analysis, and a transformer-based summarization model (e.g., BART or PEGASUS) to classify content as Positive, Neutral, or Negative and extract concise abstractive summaries of each post. 
+            The results are displayed with interactive visualizations and expandable original content sections.
+            This tool is useful for understanding subreddit tone, tracking trending topics, summarizing long discussions, or supporting content moderation and research.
           </p>
           <ul>
-            <li>Builds an interactive sentiment analysis app using Streamlit and Python</li>
-            <li>Fetches live data from Reddit using PRAW and Reddit’s API</li>
-            <li>Performs sentiment classification with VADER for posts and comments</li>
-            <li>Visualizes sentiment distribution using dynamic pie charts</li>
-            <li>Enables real-time subreddit mood tracking for research or content insights</li>
+            <li>Builds an interactive web app for Reddit data analysis and summarization</li>
+            <li>Fetches posts/comments from Reddit using PRAW and Reddit API</li>
+            <li>Performs sentiment classification with VADER for titles and comments</li>
+            <li>Summarizes Reddit post content using transformer models via HuggingFace</li>
+            <li>Visualizes sentiment data with dynamic pie charts</li>
+            <li>Allows real-time subreddit mood tracking and content overview</li>
+            <li>Supports analyzing specific post IDs or top posts by subreddit</li>
           </ul>
           <div class="buttons">
-            <a href="https://github.com/Bharathraj-K/Reddit-Post-Sentiment-Analyzer"><i class="fab fa-github"></i> Goto Project</a>
+            <a href="https://github.com/Bharathraj-K/Reddit-Post-Sentiment-Analyzer">
+              <i class="fab fa-github"></i> Goto Project
+            </a>
           </div>
         </div>
       </div>
