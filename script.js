@@ -46,6 +46,21 @@ const projects = [
       "Supports analyzing specific post IDs or top posts by subreddit"
     ],
     link: "https://github.com/Bharathraj-K/Reddit-Post-Sentiment-Analyzer"
+  },
+  {
+    title: "Chatter – Real-Time Chat Application",
+    date: "2025",
+    tags: ["React", "Node.js", "Express", "MongoDB", "Socket.io", "JWT", "Cloudinary", "Vite", "REST API", "CSS"],
+    description: `Chatter is a full-stack real-time chat application that enables users to sign up, log in, update profiles, and chat with other users instantly. It features online status, image sharing, and a modern responsive UI.`,
+    points: [
+      "Implements secure user authentication with JWT and Express middleware",
+      "Supports real-time messaging and online status using Socket.io",
+      "Allows profile management and image uploads via Cloudinary integration",
+      "Features a responsive React frontend with context-based state management",
+      "Provides RESTful API endpoints for user and message operations",
+      "Includes online user tracking and instant message delivery"
+    ],
+    link: "https://github.com/yourusername/chatter"
   }
 ];
 
