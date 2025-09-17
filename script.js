@@ -48,6 +48,21 @@ const projects = [
     link: "https://github.com/Bharathraj-K/Reddit-Post-Sentiment-Analyzer"
   },
   {
+    title: "WeatherApp – Real-Time Weather Forecast",
+    date: "2025",
+    tags: ["Node.js", "Express", "EJS", "HTML", "CSS", "JavaScript", "OpenWeatherMap API", "Render"],
+    description: `A simple and responsive weather forecast web app that fetches real-time weather data using the OpenWeatherMap API.`,
+    points: [
+      "Search for any city worldwide and view weather details",
+      "Displays temperature, humidity, wind speed, and conditions",
+      "Handles errors gracefully for invalid city inputs",
+      "Implements clean and adaptive UI with EJS templating",
+      "Fetches API data securely via environment variables",
+      "Deployed for free on Render with environment key protection"
+    ],
+    link: "https://github.com/your-username/WeatherApp"
+  },
+  {
     title: "Chatter – Real-Time Chat Application",
     date: "2025",
     tags: ["React", "Node.js", "Express", "MongoDB", "Socket.io", "JWT", "Cloudinary", "Vite", "REST API", "CSS"],
