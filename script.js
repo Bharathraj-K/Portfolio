@@ -60,7 +60,7 @@ const projects = [
       "Fetches API data securely via environment variables",
       "Deployed for free on Render with environment key protection"
     ],
-    link: "https://github.com/your-username/WeatherApp"
+    link: "https://github.com/Bharathraj-K/WeatherApp"
   },
   {
     title: "Chatter – Real-Time Chat Application",
@@ -75,7 +75,7 @@ const projects = [
       "Provides RESTful API endpoints for user and message operations",
       "Includes online user tracking and instant message delivery"
     ],
-    link: "https://github.com/yourusername/chatter"
+    link: "https://github.com/Bharathraj-K/Chatter"
   }
 ];
 
