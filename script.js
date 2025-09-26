@@ -76,6 +76,20 @@ const projects = [
       "Includes online user tracking and instant message delivery"
     ],
     link: "https://github.com/Bharathraj-K/Chatter"
+  },
+  {
+    title: "Neon Core – Sci-Fi Puzzle Platformer",
+    date: "2025",
+    tags: ["Unity", "Blender", "C#", "Game Development", "Physics", "3D Modeling", "Itch.io"],
+    description: `Neon Core is a sci-fi third-person puzzle platformer featuring physics-based puzzles, immersive level design, and cyberpunk-inspired visuals.`,
+    points: [
+      "Developed 3D sci-fi environments with Blender and Unity",
+      "Implemented third-person mechanics and physics-driven puzzles",
+      "Designed challenging puzzle levels with increasing difficulty",
+      "Integrated lighting and shader effects for neon cyberpunk aesthetics",
+      "Published on Itch.io with playable demo and community feedback"
+    ],
+    link: "https://bharathraj-k.itch.io/neon-core"
   }
 ];
 
