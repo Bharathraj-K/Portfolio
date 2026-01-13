@@ -78,6 +78,34 @@ const projects = [
     link: "https://github.com/Bharathraj-K/Chatter"
   },
   {
+  title: "AI Code Reviewer – Automated GitHub PR Review Bot",
+  date: "2026",
+  tags: [
+    "Python",
+    "FastAPI",
+    "LLM",
+    "GitHub Webhooks",
+    "Static Analysis",
+    "Bandit",
+    "Semgrep",
+    "LM Studio",
+    "HuggingFace",
+    "System Design",
+    "CI/CD"
+  ],
+  description: `An automated GitHub pull request review system that uses Large Language Models and static analysis tools to analyze code changes in real time and post structured reviews directly on GitHub pull requests.`,
+  points: [
+    "Built a GitHub webhook-driven FastAPI backend to trigger reviews on PR open and update events",
+    "Uses HMAC-SHA256 to securely verify GitHub webhook authenticity",
+    "Runs Bandit and Semgrep to detect security vulnerabilities and code issues across multiple languages",
+    "Feeds static analysis results into an LLM for context-aware, hallucination-resistant code reviews",
+    "Supports both LM Studio (local AMD GPU / CPU via DirectML) and Hugging Face Transformer models",
+    "Implements background task processing to prevent webhook timeouts and ensure reliability",
+    "Automatically posts structured AI reviews (bugs, quality, security, fixes) back to GitHub PRs"
+  ],
+  link: "https://github.com/Bharathraj-K/AI_CODE_REVIEWER"
+  },
+  {
     title: "Neon Core – Sci-Fi Puzzle Platformer",
     date: "2025",
     tags: ["Unity", "Blender", "C#", "Game Development", "Physics", "3D Modeling", "Itch.io"],
